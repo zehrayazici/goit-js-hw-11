@@ -22,7 +22,7 @@ function onSearch(event) {
 
   if (!query) {
     iziToast.warning({
-      message: "Lütfen bir arama terimi girin!",
+      message: "Please enter a search query.",
       position: "topRight",
     });
     return;
